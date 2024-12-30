@@ -8,22 +8,19 @@
 
 Queri is a simple yet powerful command-line DNS resolver built with Rust. It's designed to perform both iterative and recursive DNS lookups, providing you with detailed information about domain names. Queri supports various DNS record types, making it a versatile tool for network analysis and DNS exploration.
 
-## ✨ Features
+## Features
 
 *   **Recursive DNS Resolution:** Recursively queries nameservers to find the IP addresses for domain names.
 *   **Iterative Lookup Support:** Also supports iterative lookups for nameservers when needed.
 *   **Support for A, AAAA, MX, NS, CNAME, SRV, and TXT Records:** Provides results for all essential record types.
-*   **Caching Mechanism:** Improves performance by caching previous DNS queries.
-*   **User-Friendly CLI:** An easy-to-use command-line interface.
-*   **Colored Output:** Formatted output makes it easy to understand results.
 *   **Dynamic Byte Packet Buffer:** Efficiently handles DNS message parsing and construction.
 
-## ⚙️ How It Works
+## How It Works
 
 Queri's backend, upon receiving a query either from the server or the user, first uses a UDP socket to interact with DNS protocols, encoding the query into a binary DNS message. It then recursively queries nameservers, parsing each response by decoding the binary data to follow CNAME and NS records to reach an A, AAAA, MX, NS, CNAME, SRV, or TXT record, caching resolved results to improve efficiency and finally format the DNS responses to send to the user or client.
 
 
-## 🛠️ Getting Started
+## USAGE
 
 ### Prerequisites
 
