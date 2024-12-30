@@ -3,9 +3,8 @@
 [![Rust](https://img.shields.io/badge/rust-1.63+-orange?style=flat-square&logo=rust)](https://www.rust-lang.org/) [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <img src="https://i.imgur.com/7X1h49c.png" alt="Queri Logo" width="200"/>
+  <img src="[https://i.imgur.com/7X1h49c.png](https://github.com/user-attachments/assets/a392f1df-1474-4556-b0d5-623427b663e5)" alt="Queri Logo" width="300"/>
 </p>
-
 
 Queri is a simple yet powerful command-line DNS resolver built with Rust. It's designed to perform both iterative and recursive DNS lookups, providing you with detailed information about domain names. Queri supports various DNS record types, making it a versatile tool for network analysis and DNS exploration.
 
